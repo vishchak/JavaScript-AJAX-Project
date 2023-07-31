@@ -1,0 +1,16 @@
+[{
+ "name": "Eloquent JavaScript",
+ "provider": "Marijn Haverbeke"
+}, {
+ "name": "JavaScript for Cats",
+ "provider": "Max Ogden"
+}, {
+ "name": "Mozilla’s JavaScript Guide",
+ "provider": "MDN Web Docs"
+}, {
+ "name": "jQuery AJAX",
+ "provider": "W3Schools"
+}, {
+ "name": "Modern JavaScript From The Beginning",
+ "provider": "Udemy"
+}]
