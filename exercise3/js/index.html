@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Introduction</title>
+    <script src="show.js"></script>
+</head>
+<body>
+<p>This is a plain HTML file - use AJAX to change it's contents. </p>
+<fieldset>
+    <legend>Questionaire</legend>
+    Select your preferred interest
+    <label for="lbFavourites"></label><select name="lbFavourites" size="4" id="lbFavourites"
+                                              onchange="showPreferred(this.value,'interest')">
+    <option value="1">Magazines</option>
+    <option value="2">Movies</option>
+    <option value="3">Music</option>
+    <option value="4">Websites</option>
+</select>
+    <hr>
+    <div id="interest">&nbsp;</div>
+    <hr>
+</fieldset>
+</body>
+</html>
